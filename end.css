@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 62px;
+    background-color: aliceblue;
+}
+
+.div1 {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #56a5eb;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
+.button1 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    border: 0.1rem solid #56a5eb;
+    margin-top: 1px;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: #56a5eb;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button1:hover{
+    cursor: pointer;
+    box-shadow: aliceblue;
+    background-color: #fafad2;
+    transform: translateY(2px);
+    transition: transform 150ms;
+
+}
+
+.yourScore {
+    color: #56a5eb;
+    margin-top: 180px;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
